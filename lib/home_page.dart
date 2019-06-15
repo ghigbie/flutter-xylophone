@@ -8,7 +8,7 @@ class HomeXylophone extends StatefulWidget {
 }
 
 final player = AudioCache();
-void playNote(number) {
+void playNote(int number) {
   player.play('note$number.wav'); //audio player knows the location of assets
 }
 
