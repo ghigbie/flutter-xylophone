@@ -54,7 +54,7 @@ class _HomeXylophoneState extends State<HomeXylophone> {
             onPressed: () {
               playNote(4);
             },
-            child: Container(color: Colors.blue),
+            child: Container(color: Colors.green[900]),
           ),
         ),
         Expanded(
@@ -62,7 +62,7 @@ class _HomeXylophoneState extends State<HomeXylophone> {
             onPressed: () {
               playNote(5);
             },
-            child: Container(color: Colors.indigo),
+            child: Container(color: Colors.blue),
           ),
         ),
         Expanded(
@@ -78,7 +78,7 @@ class _HomeXylophoneState extends State<HomeXylophone> {
             onPressed: () {
               playNote(7);
             },
-            child: Container(color: Colors.black),
+            child: Container(color: Colors.purple[900]),
           ),
         ),
       ],
