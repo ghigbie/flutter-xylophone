@@ -11,10 +11,6 @@ class Xylophone extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.black,
-        appBar: AppBar(
-          title: Text(APP_TITLE_MESSAGE),
-          backgroundColor: Colors.black,
-        ),
         body: SafeArea(
           child: HomeXylophone(),
         ),
