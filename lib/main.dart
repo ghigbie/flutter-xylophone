@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
+import 'home_page.dart';
 
 void main() => runApp(Xylophone());
 
@@ -10,12 +12,11 @@ class Xylophone extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Text(APP_TEXT_MESSAGE),
+          title: Text(APP_TITLE_MESSAGE),
           backgroundColor: Colors.blueGrey,
         ),
-        body: HomePage(),
+        body: HomeXylophone(),
       ),
     );
   }
 }
-
