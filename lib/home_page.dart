@@ -13,17 +13,15 @@ void playNote(int number) {
   player.play('note$number.wav'); //audio player knows the location of assets
 }
 
-
 Expanded buildKey(int noteNumber, Color buttonColor) {
-    return Expanded(
-      child: FlatButton(
-        onPressed: () {
-          playNote(noteNumber);
-        },
-        child: Container(color: buttonColor),
-      ),
-    );
-  }
+  return Expanded(
+    child: FlatButton(
+      onPressed: () {
+        playNote(noteNumber);
+      },
+      child: Container(color: buttonColor),
+    ),
+  );
 }
 
 class _HomeXylophoneState extends State<HomeXylophone> {
