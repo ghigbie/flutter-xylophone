@@ -17,7 +17,9 @@ class Xylophone extends StatelessWidget {
           title: Text(APP_TITLE_MESSAGE),
           backgroundColor: Colors.blueGrey,
         ),
-        body: HomeXylophone(),
+        body: SafeArea(
+          child: HomeXylophone(),
+        ),
       ),
     );
   }
